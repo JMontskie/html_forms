@@ -34,3 +34,16 @@ fieldset {
     padding: 2rem 0;
     border-bottom: 2px solid #3b3b4f;
 }
+
+fieldset:nth-child(3) {
+    border-bottom: none;
+}
+
+/* fieldset:last-of-type {
+    border-bottom: none;
+} input same as above ^ */
+
+input, textare, select {
+    width: 100%;
+    margin: 10px 0 0;
+}
