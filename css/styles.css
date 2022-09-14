@@ -77,6 +77,11 @@ input[type=submit] {
     display: block;
     width: 60%;
     margin: 0 auto;
-     height: 2em; /* related to parent element */
+    height: 2em; /* related to parent element */
     font-size: 1.1rem; /* related to root element */
+    background-color: green;
+    color: white;
+    min-width: 300px;
+    margin: 1em auto;
+    cursor: pointer;
 }
